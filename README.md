@@ -4,12 +4,12 @@ The idea it's to make a fully functional calculator using the most *pure* JavaSc
 
 ## Tasks
 
-[ ] Make the visible part;
-[ ] Make a simple calculator;
-[ ] Make a scientific calculator;
-[ ] Make a graphical calculator;
-[ ] Extras (?);
-[ ] Make it look good (not necessary).
+- [ ] Make the visible part;
+- [ ] Make a basic calculator;
+- [ ] Make a scientific calculator;
+- [ ] Make a graphical calculator;
+- [ ] Extras (?);
+- [ ] Make it look good (not necessary).
 
 ## Why?
 
