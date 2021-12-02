@@ -1,0 +1,63 @@
+article {
+	display: grid;
+	grid-template-columns: 2fr 2fr 4fr;
+	grid-template-rows: 1fr;
+	gap: 1ch;
+}
+
+#calc {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 7fr;
+	gap 1ch;
+}
+
+#screen-panel {
+	background-color: #ccc;
+	border: 1px solid #333;
+	display: block;
+	height: 4rem;
+	width: 100%
+}
+
+#history {
+	overflow: scroll;
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+	display: inline-block;
+}
+
+#hist-panel {
+	background-color: #ccc;
+	border: 1px solid #333;
+	height: 100%;
+	width: 100%;
+	vertical-align: center;
+	display: block;
+	margin: auto;
+}
+
+#notes-zone div { 
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.page {
+	overflow: auto;
+}
+
+.page textarea {
+	resize: none;
+	vertical-align: center;
+	display: block;
+	width: 90%;
+	height: 90%;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+}
